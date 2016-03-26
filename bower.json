@@ -1,0 +1,31 @@
+{
+  "name": "sass-gulp-sandbox",
+  "description": "Sandbox for testing html css jquery and sass",
+  "main": "gulpfile.js",
+  "authors": [
+    "Michel Sabatino <ms@auxe.net>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "sass",
+    "html5",
+    "css3",
+    "gulp"
+  ],
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.*",
+    "bootstrap-sass": "~3.3.*",
+    "AdminLTE": "adminlte#^2.3.2",
+    "font-awesome": "fontawesome#^4.5.0",
+    "Ionicons": "ionicons#^2.0.1"
+  }
+}

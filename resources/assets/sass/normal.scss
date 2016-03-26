@@ -1,0 +1,36 @@
+// Bootstrap variables.
+// You can override these by simply redefining the variable before the @import directive, e.g.:
+//
+@import url(https://fonts.googleapis.com/css?family=Lato);
+//
+@import "bootstrap/bootstrap";
+//
+@import "fa/font-awesome";
+
+body {
+  border-top: 3px solid #e74430;
+  font-weight: 400;
+  font-family: 'Lato';
+}
+
+.row {
+  margin-top: 25px;
+  font-size: 2em;
+}
+
+.ok {
+  color: #7E6E46;
+}
+
+.no-ok {
+  color: red;
+}
+
+.droite {
+  background-color: #cbb784;
+}
+
+.gauche {
+  background-color: #8497CB;
+  color: white;
+}
