@@ -12,7 +12,9 @@
 */
 
 Route::get('/', function () {
-    return view('templates.normal.home');
+    $laravel = app();
+    $lv = $laravel::VERSION;
+    return view('templates.normal.home', compact('lv')); //['lv' => $lv]);
 });
 
 Route::get('/admin', function () {

@@ -11,7 +11,7 @@
 
     <div class="row">
       <div class="col-xs-11 col-md-7 col-md-offset-2 gauche">
-        <p>Laravel 5</p>
+        <p>Laravel 5 ({{ $lv }})</p>
       </div>
       <div class="col-xs-1 droite">
         <p><span class="ok glyphicon glyphicon-ok" aria-hidden="true"></span></p>
@@ -34,6 +34,12 @@
       <div class="col-xs-1 droite">
         <span><i class="ok fa fa-check-square fa-lg"></i></span>
       </div>
+    </div> <!-- row -->
+
+    <div class="row">
+        <div class="col md-9 col-md-offset-2">
+            <a href="admin">Go to admin pages</a>
+        </div>
     </div> <!-- row -->
 
   </div> <!-- container -->
