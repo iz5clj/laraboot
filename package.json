@@ -26,5 +26,7 @@
   },
   "author": "Michel Sabatino",
   "license": "ISC",
-  "devDependencies": {}
+  "devDependencies": {
+    "browser-sync": "^2.13.0"
+  }
 }

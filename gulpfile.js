@@ -117,7 +117,7 @@ gulp.task('build', ['sass', 'javascript']);
 gulp.task('serve', ['build'], function() {
 
   browserSync.init({
-    proxy: 'lara5.dev'
+    proxy: 'laraboot.dev'
     //server: 'public/'
   });
 

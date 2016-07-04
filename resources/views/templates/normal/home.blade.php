@@ -11,7 +11,7 @@
 
     <div class="row">
       <div class="col-xs-11 col-md-7 col-md-offset-2 gauche">
-        <p>Laravel 5 ({{ $lv }})</p>
+        <p>Laravel 5 ({{ $lv }}) with php ({{ $phpv }})</p>
       </div>
       <div class="col-xs-1 droite">
         <p><span class="ok glyphicon glyphicon-ok" aria-hidden="true"></span></p>
@@ -20,7 +20,7 @@
 
     <div class="row">
       <div class="col-xs-11 col-md-7 col-md-offset-2 gauche">
-        <span id="h2-jquery-test">If you see this text, jquery is <b>not</b> working.</span>
+        <span id="h2-jquery-test">If you see this text, jquery is <b>not</b> working..</span>
       </div>
       <div class="col-xs-1 droite">
         <span id="span-jquery-test" class="no-ok glyphicon glyphicon-remove" aria-hidden="true"></span>

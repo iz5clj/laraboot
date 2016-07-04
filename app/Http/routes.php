@@ -14,7 +14,10 @@
 Route::get('/', function () {
     $laravel = app();
     $lv = $laravel::VERSION;
-    return view('templates.normal.home', compact('lv')); //['lv' => $lv]);
+
+    $phpv = phpversion();
+
+    return view('templates.normal.home', compact('lv', 'phpv')); //['lv' => $lv]);
 });
 
 Route::get('/admin', function () {
